@@ -1,0 +1,84 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgb(103,162,75);
+    height: 500px;
+}
+
+.card {
+    margin-top: 60px;
+    border: 1px solid gray;
+    border-radius: 15px;
+    background-color: #f1f1f1;
+    width: 40%;
+    height: auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-left: 450px;
+    /* padding: 20px; */
+
+}
+
+.card .top-imgProduct {
+    margin-top: 15px;
+}
+
+
+.card .top-imgProduct img {
+    width: 65%;
+    height: auto;
+    margin-left: 100px;
+}
+
+.img-product {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.img-product img {
+    width: 32%;
+    margin: 5px;
+}
+
+.info-card {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.info-card h1 {
+    font-size: 21px;
+    color: rgb(105,103,105);
+    margin-bottom: 6px;
+}
+
+.info-card p {
+    font-size: 16px;
+    color: rgb(105,103,105);
+    margin-bottom: 6px;
+}
+
+
+.info-card button {
+    width: 25%;
+    height: auto;
+    padding: 8px;
+    margin-bottom: 20px;
+    border: 1px solid rgb(105,103,105);
+    border-radius: 15px;
+    font-size: 17px;
+    transition: all 1s;
+}
+
+.info-card button:hover {
+    background-color: rgb(105,103,105);
+    color: #f1f1f1;
+}
+
